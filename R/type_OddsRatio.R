@@ -2,7 +2,7 @@
 #' @importFrom stats na.omit
 #' @include ipw.R miscfunc.R
 #' @keywords internal
-.ipw.OddsRatio <- function(response, data, khat) {
+.ipw.OddsRatio <- function(response, data, khat, ...) {
   
   # number of categories
   cats <- levels(x = data$Y)

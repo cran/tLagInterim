@@ -1,7 +1,7 @@
 #' @noRd
 #' @include ipw.R type_Mean.R
 #' @keywords internal
-.ipw.RiskRatio <- function(response, data, khat) {
+.ipw.RiskRatio <- function(response, data, khat, ...) {
   
   # Estimates in closed form
   bterm <- data$delta * data$a / khat

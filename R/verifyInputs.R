@@ -14,7 +14,7 @@
 #' @noRd
 #' @importFrom stats na.omit
 #' @keywords internal
-.verifyInteger01.integer <- function(x, base, x_name, base_name) {
+.verifyInteger01.integer <- function(x, base, x_name, base_name, ...) {
   
   levs <- sort(x = unique(x = stats::na.omit(object = x)))
   
@@ -63,7 +63,7 @@
 
 #' @noRd
 #' @keywords internal
-.verifyInteger01.factor <- function(x, base, x_name, base_name) {
+.verifyInteger01.factor <- function(x, base, x_name, base_name, ...) {
   
   levs <- levels(x = x)
   base_level <- which(levs == base)

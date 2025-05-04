@@ -1,5 +1,6 @@
-123e5a319b7d3d6179cc316d4f208589 *DESCRIPTION
+a875e84b3f28e6d484932d2e2c4027ec *DESCRIPTION
 c65915d4ab57fe025ae13ce0a6d7f717 *NAMESPACE
+62d1a4909cd706f571a746f857e53109 *NEWS
 02e75ed57eceeb5462641fd3b7c1382b *R/KM.R
 d721062e7ae08d4f07a8df6ff2ac82d6 *R/augment.R
 550c9b49bacc27b78b58e45e7d0bbe32 *R/ipw.R
@@ -10,11 +11,11 @@ c705b16c8e34437bdfb6ff70312c721b *R/martingale.R
 7dca6724c5283fb5090a66b336655a3c *R/print.tLagInterim.R
 3bfa8e8d1a6567d33e728f0a3c5c9a72 *R/tLagInterim.R
 5dcc6e9f5873d881f0366bc0673756df *R/tLagInterimData.R
-af4bbbcc9df92f696ccefc881bdec9a7 *R/type_Mean.R
-2e665699fed9dcae2b57521cd914a339 *R/type_OddsRatio.R
-26a099830b4ce2d6867413145fe9c80b *R/type_RiskDiff.R
-39949e64f2994dc7f2eac45081376fcc *R/type_RiskRatio.R
-6b704d63d49ea1b48835d268fdf34063 *R/verifyInputs.R
+6df620b801c707baa300e6b2ffba912a *R/type_Mean.R
+6677b80b3a44d03ad72606fa111eadc2 *R/type_OddsRatio.R
+b084e873fee1d4b8fdd65ea4af629ced *R/type_RiskDiff.R
+cd6e76cb51b67299e851ce80c736ce2e *R/type_RiskRatio.R
+f305ebf5c4d0b0ce4ba0c0b5ef993194 *R/verifyInputs.R
 6dab1e143ad846e1765256ed5fb03700 *data/tLagIntBin.RData
 7a295dc93ea2c0699543677af16ce2ab *data/tLagIntCat.RData
 c9bd68f9dcffcdadd1f8ab82ce412052 *data/tLagIntCont.RData

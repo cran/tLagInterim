@@ -1,7 +1,7 @@
 #' @noRd
 #' @include ipw.R
 #' @keywords internal
-.ipw.Mean <- function(response, data, khat) {
+.ipw.Mean <- function(response, data, khat, ...) {
     
   tmp <- data$delta / khat
     
